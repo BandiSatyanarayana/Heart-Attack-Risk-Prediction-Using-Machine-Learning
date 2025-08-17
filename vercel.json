@@ -2,26 +2,26 @@
   "version": 2,
   "builds": [
     {
-      "src": "Heart-Attack-Risk-Prediction-lnm71a/api/predict.py",
+      "src": "api/predict.py",
       "use": "@vercel/python"
     },
     {
-      "src": "Heart-Attack-Risk-Prediction-lnm71a/api/test.py",
+      "src": "api/test.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/api/test",
-      "dest": "/Heart-Attack-Risk-Prediction-lnm71a/api/test.py"
+      "dest": "/api/test.py"
     },
     {
       "src": "/api/predict",
-      "dest": "/Heart-Attack-Risk-Prediction-lnm71a/api/predict.py"
+      "dest": "/api/predict.py"
     },
     {
       "src": "/(.*)",
-      "dest": "/Heart-Attack-Risk-Prediction-lnm71a/index.html"
+      "dest": "/index.html"
     }
   ]
 }
