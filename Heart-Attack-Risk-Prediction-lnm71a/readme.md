@@ -11,6 +11,20 @@ This application takes age, BMI, Systolic BP, Diastolic BP, heart
 rate and blood glucose levels as input to give the risk in percentage
 associated with having a heart attack in a patient in 10 years time.
 
+## 🌐 Live Demo
+
+**🚀 [Try the Live Application](https://heart-attack-risk-prediction-k9mj.onrender.com)**
+
+Your heart attack risk prediction is now live and accessible worldwide!
+
+## 📊 Features
+
+- **Real-time Predictions**: Get instant heart attack risk assessments
+- **Two ML Models**: Choose between K-Nearest Neighbors and Logistic Regression
+- **Professional Interface**: Clean, user-friendly web application
+- **Accurate Results**: Based on Framingham Heart Study dataset
+- **Confidence Scores**: See prediction confidence levels
+
 ## Installation of required software and Libraries (One Time)
 
 1. Install the Anaconda Python Package
@@ -59,12 +73,38 @@ associated with having a heart attack in a patient in 10 years time.
 	>>python app.py
 	
 	
-## Tech Stack
+## 🚀 Deployment Status
 
-**Language:** Python
+[![Deploy to Render](https://img.shields.io/badge/Deploy%20to-Render-46f3f7?style=for-the-badge&logo=render)](https://render.com)
+[![Python](https://img.shields.io/badge/Python-3.12.4-blue?style=for-the-badge&logo=python)](https://python.org)
+[![Flask](https://img.shields.io/badge/Flask-3.1.1-green?style=for-the-badge&logo=flask)](https://flask.palletsprojects.com)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-brightgreen?style=for-the-badge)](https://heart-attack-risk-prediction-k9mj.onrender.com)
 
-**Libraries:** numpy, pandas, matplotlib, scikit-learn, boruta, imbalanced-learn
+## 🏗️ Tech Stack
 
-Happy Learning
+**Language:** Python 3.12.4
+
+**Framework:** Flask 3.1.1
+
+**Libraries:** numpy, pandas, matplotlib, scikit-learn, boruta, imbalanced-learn, gunicorn
+
+**Deployment:** Render (Production)
+
+## 📱 Quick Start
+
+1. **Try the Live App**: [https://heart-attack-risk-prediction-k9mj.onrender.com](https://heart-attack-risk-prediction-k9mj.onrender.com)
+2. **Local Setup**: Follow the installation steps below
+3. **Model Training**: Use the Jupyter notebook for custom training
+
+## 🎯 Project Status
+
+✅ **Local Development**: Complete  
+✅ **Production Deployment**: Live on Render  
+✅ **Auto-deploy**: Every push triggers new deployment  
+✅ **HTTPS**: Automatic SSL certificate  
+
+---
+
+Happy Learning! 🫀✨
 
 Team VTUPulse.com

@@ -8,6 +8,14 @@ This guide will walk you through deploying your Heart Attack Risk Prediction Fla
 - Render account (free tier available)
 - Python 3.8+ project ready for deployment
 
+## ✅ **Deployment Status: SUCCESS!**
+
+**🌐 Live Application**: [https://heart-attack-risk-prediction-k9mj.onrender.com](https://heart-attack-risk-prediction-k9mj.onrender.com)
+
+**🚀 Deployment Date**: August 17, 2025  
+**🏗️ Platform**: Render  
+**📊 Status**: Production Live  
+
 ## 🛠️ Pre-deployment Setup
 
 ### 1. Project Structure
@@ -232,6 +240,10 @@ curl http://localhost:8000
 
 **🎉 Congratulations! Your Heart Attack Risk Prediction app is now deployed on Render!**
 
-**🌐 Access it at**: `https://your-app-name.onrender.com`
+**🌐 Access it at**: [https://heart-attack-risk-prediction-k9mj.onrender.com](https://heart-attack-risk-prediction-k9mj.onrender.com)
 
 **🔄 Auto-deploy**: Every push to main branch will trigger a new deployment
+
+## ✅ **Deployment Successful!**
+
+Your app is now live and accessible worldwide! 🚀

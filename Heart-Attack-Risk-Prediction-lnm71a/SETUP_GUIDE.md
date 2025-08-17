@@ -3,6 +3,11 @@
 ## 🚀 Project Overview
 This is a Machine Learning-based web application that predicts heart attack risk using patient health parameters. The application uses pre-trained K-Nearest Neighbors (KNN) and Logistic Regression models to provide risk assessments.
 
+## 🌐 Live Demo Available!
+**🚀 [Try the Live Application](https://heart-attack-risk-prediction-k9mj.onrender.com)**
+
+Your heart attack risk prediction app is now live and accessible worldwide!
+
 ## 📋 Prerequisites
 - Python 3.8 or higher
 - pip (Python package installer)
