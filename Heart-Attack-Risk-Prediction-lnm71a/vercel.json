@@ -4,16 +4,20 @@
     {
       "src": "api/predict.py",
       "use": "@vercel/python"
+    },
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/api/predict",
-      "dest": "api/predict.py"
+      "dest": "/api/predict.py"
     },
     {
       "src": "/(.*)",
-      "dest": "index.html"
+      "dest": "/index.html"
     }
   ],
   "functions": {
