@@ -6,11 +6,15 @@
       "use": "@vercel/python"
     },
     {
-      "src": "index.html",
-      "use": "@vercel/static"
+      "src": "api/test.py",
+      "use": "@vercel/python"
     }
   ],
   "routes": [
+    {
+      "src": "/api/test",
+      "dest": "/api/test.py"
+    },
     {
       "src": "/api/predict",
       "dest": "/api/predict.py"
@@ -19,10 +23,5 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ],
-  "functions": {
-    "api/predict.py": {
-      "maxDuration": 30
-    }
-  }
+  ]
 }
